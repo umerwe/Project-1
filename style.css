@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(135deg, #3e59d2 0%, #8050b0 100%);
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+/* NavBar-section */
+.navbar{
+    margin: 0% 15%;
+}
+.navbar .navbar-brand{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.navbar form button {
+    border: 1px solid #fff;
+    color: #fff;
+}
+.navbar form button:hover{
+background-color: #3e59d2;
+}
+
+/* Hero-section */
+#hero-section{
+    padding: 0% 15.6% 159px;
+}
+.hero-text{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: -.5rem;
+}
+hr{
+    background-color: #fff;
+    height: .3rem;
+}
+
+.container-1,.container-x{
+    border: .1rem solid lightgrey;
+    border-radius: .5rem;
+    padding: 1.4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: .6rem;
+}
+#hero-section .btn{
+    background-color: transparent;
+    color: lightgray;
+    border: .1rem solid lightgray;
+    border-radius: .4rem;
+    padding: .5rem 1.2rem;
+}
+#hero-section .btn:hover{
+    background-color: rgb(89, 89, 247);
+    box-shadow: 0px 0px 30px 15px rgb(89, 89, 247);
+    color: #fff;
+}
+
+.container-2,.container-3{
+    margin-block: .7rem;
+}
+.container-2 .container-x,.container-3 .container-x{
+    padding-bottom: 6px;
+}
+.container-2 p{
+    margin-bottom: 1rem;
+}
+.container-2 button{
+    margin-top: .5rem;
+}
+#hero-text p,#hero-list{
+    text-align: center;
+}
+
+.footer{
+    margin-top: 1rem;
+    text-align: center;
+}
+.footer span{
+    font-weight: 700;
+}
